@@ -89,9 +89,23 @@ void AACJDetection::exportAACJ(const char *filename)
 	branch_{junctionClass} strength_{junctionClass} logNFA_{junctionClass}
 	*/
 	FILE *file = fopen(filename, "w");
-	fprintf(file, "%d\n", Junctions.size());
+
+	// Count the number of T-junctions and X-junctions
+	int ntx_junction = 0;
 	for (int i = 0; i < Junctions.size(); ++i)
 	{
+		if (Junctions[i].junctionClass >= 3)
+			ntx_junction++;
+	}
+
+	//fprintf(file, "%d\n", Junctions.size());
+	fprintf(file, "%d\n", ntx_junction);
+	for (int i = 0; i < Junctions.size(); ++i)
+	{
+		// Only output T-junction or X-junction
+		if (Junctions[i].junctionClass < 3)
+			continue;
+
 		fprintf(file, "%f %f\n", Junctions[i].location.x, Junctions[i].location.y);
 		fprintf(file, "%d %d %d %f\n", Junctions[i].junctionClass, Junctions[i].scale, Junctions[i].r_d, Junctions[i].logNFA);
 		for (int j = 0; j < Junctions[i].junctionClass; ++j)

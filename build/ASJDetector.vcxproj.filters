@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\projects\Junction_Match\anisotropic-scale-junction-detector\sources\aacj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\Junction_Match\anisotropic-scale-junction-detector\sources\aacjout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\Junction_Match\anisotropic-scale-junction-detector\sources\acj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\Junction_Match\anisotropic-scale-junction-detector\sources\acjpre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\Junction_Match\anisotropic-scale-junction-detector\sources\generateSector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\Junction_Match\anisotropic-scale-junction-detector\sources\helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\Junction_Match\anisotropic-scale-junction-detector\sources\lsdcall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\Junction_Match\anisotropic-scale-junction-detector\sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\Junction_Match\anisotropic-scale-junction-detector\sources\nfa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\Junction_Match\anisotropic-scale-junction-detector\sources\pdf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\Junction_Match\anisotropic-scale-junction-detector\sources\vpdetect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\projects\Junction_Match\anisotropic-scale-junction-detector\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{59A5663D-D09E-3DDF-9613-44EE7A16AC6F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
